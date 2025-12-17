@@ -57,14 +57,7 @@ double** matricos_skaiciavimas(taskai* points)
     {
         for(int j = 0; j <= i; j++)
         {
-            if(j > i)
-            {
-                matrica[i][j] = 0.0;
-            }
-            else
-            {
                 matrica[i][j] = HaversineDistance(&points[i], &points[j]);
-            }
         }
     }
     return matrica;

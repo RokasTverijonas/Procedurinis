@@ -7,7 +7,7 @@ int main()
 {
     readFile();
     double** matrica = matricos_skaiciavimas(points);
-    int n = 5;
+    int n = 3;
     geriausiavieta(n,matrica);
     spausdinimas(10,matrica);
     cout << endl;
